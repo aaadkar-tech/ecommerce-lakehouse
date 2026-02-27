@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: olist
+    database: RAW
+    schema: OLIST
+    tables:
+      - name: orders
+      - name: order_items
+      - name: customers
+      - name: products
+      - name: sellers
+      - name: order_reviews
+      - name: order_payments
+      - name: geolocation
+      - name: product_category_translation
